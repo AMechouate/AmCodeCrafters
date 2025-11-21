@@ -16,7 +16,7 @@ const Hero = () => {
             <h1 className={`text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight ${
               theme === 'dark' ? 'text-white' : 'text-gray-900'
             }`}>
-              {t('hero.title').split(' ').map((word, i, arr) => 
+              {t('hero.title').split(' ').map((word, i) => 
                 word.toLowerCase() === 'not' ? (
                   <span key={i} className="text-primary-600 italic"> {word} </span>
                 ) : (
