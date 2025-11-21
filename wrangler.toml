@@ -1,0 +1,6 @@
+name = "am-codecrafters"
+pages_build_output_dir = "./dist"
+
+[env.production]
+name = "am-codecrafters"
+
