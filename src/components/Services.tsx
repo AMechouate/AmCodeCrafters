@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useApp } from '../contexts/AppContext'
 import ServiceModal from './ServiceModal'
+import { getImagePath } from '../utils/imagePath'
 
 const Services = () => {
   const { theme, t } = useApp()
@@ -13,42 +14,42 @@ const Services = () => {
       titleKey: 'services.service1.title',
       descriptionKey: 'services.service1.description',
       icon: '💼',
-      image: '/AM Bild 3.jpg',
+      image: getImagePath('/AM Bild 3.jpg'),
     },
     {
       number: '2',
       titleKey: 'services.service2.title',
       descriptionKey: 'services.service2.description',
       icon: '📊',
-      image: '/AM Bild 4.jpg',
+      image: getImagePath('/AM Bild 4.jpg'),
     },
     {
       number: '3',
       titleKey: 'services.service3.title',
       descriptionKey: 'services.service3.description',
       icon: '💻',
-      image: '/AM Bild 9.jpg',
+      image: getImagePath('/AM Bild 9.jpg'),
     },
     {
       number: '4',
       titleKey: 'services.service4.title',
       descriptionKey: 'services.service4.description',
       icon: '🔧',
-      image: '/AM Bild 1.jpg',
+      image: getImagePath('/AM Bild 1.jpg'),
     },
     {
       number: '5',
       titleKey: 'services.service5.title',
       descriptionKey: 'services.service5.description',
       icon: '🚀',
-      image: '/AM Bild 7.jpg',
+      image: getImagePath('/AM Bild 7.jpg'),
     },
     {
       number: '6',
       titleKey: 'services.service6.title',
       descriptionKey: 'services.service6.description',
       icon: '🛠️',
-      image: '/AM Bild 8.jpg',
+      image: getImagePath('/AM Bild 8.jpg'),
     },
   ]
 

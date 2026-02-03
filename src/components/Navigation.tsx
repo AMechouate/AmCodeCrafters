@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useApp } from '../contexts/AppContext'
+import { getImagePath } from '../utils/imagePath'
 
 interface NavigationProps {
   isScrolled: boolean
@@ -35,7 +36,7 @@ const Navigation = ({ isScrolled }: NavigationProps) => {
           {/* Logo */}
           <a href="#home" className="flex items-center">
             <img
-              src="/logo_4-removebg.png"
+              src={getImagePath('/logo_4-removebg.png')}
               alt="AM Code Crafters Logo"
               className="h-24 md:h-32 w-auto object-contain"
             />

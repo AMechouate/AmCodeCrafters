@@ -1,4 +1,5 @@
 import { useApp } from '../contexts/AppContext'
+import { getImagePath } from '../utils/imagePath'
 
 const Footer = () => {
   const { theme, t } = useApp()
@@ -16,7 +17,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-4 mb-4">
               <img
-                src="/Logo_1-removebg.png"
+                src={getImagePath('/Logo_1-removebg.png')}
                 alt="AM Code Crafters Logo"
                 className="h-20 w-auto object-contain"
               />

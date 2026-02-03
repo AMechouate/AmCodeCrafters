@@ -1,4 +1,5 @@
 import { useApp } from '../contexts/AppContext'
+import { getImagePath } from '../utils/imagePath'
 
 const About = () => {
   const { theme, t, language } = useApp()
@@ -15,7 +16,7 @@ const About = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/AM Bild 2.jpg"
+                src={getImagePath('/AM Bild 2.jpg')}
                 alt={t('about.title')}
                 className="w-full h-auto object-cover"
               />

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useApp } from '../contexts/AppContext'
 import AdvancedSolutionModal from './AdvancedSolutionModal'
+import { getImagePath } from '../utils/imagePath'
 
 const AdvancedSolutions = () => {
   const { theme, t } = useApp()
@@ -12,7 +13,7 @@ const AdvancedSolutions = () => {
       icon: '🌐',
       title: t('advancedSolutions.web.title'),
       description: t('advancedSolutions.web.description'),
-      image: '/AM Bild 10.jpg',
+      image: getImagePath('/AM Bild 10.jpg'),
       features: [
         t('advancedSolutions.web.feature1'),
         t('advancedSolutions.web.feature2'),
@@ -24,7 +25,7 @@ const AdvancedSolutions = () => {
       icon: '📋',
       title: t('advancedSolutions.planning.title'),
       description: t('advancedSolutions.planning.description'),
-      image: '/AM Bild 11.jpg',
+      image: getImagePath('/AM Bild 11.jpg'),
       features: [
         t('advancedSolutions.planning.feature1'),
         t('advancedSolutions.planning.feature2'),
@@ -36,7 +37,7 @@ const AdvancedSolutions = () => {
       icon: '☁️',
       title: t('advancedSolutions.cloud.title'),
       description: t('advancedSolutions.cloud.description'),
-      image: '/AM Bild 12.jpg',
+      image: getImagePath('/AM Bild 12.jpg'),
       features: [
         t('advancedSolutions.cloud.feature1'),
         t('advancedSolutions.cloud.feature2'),
@@ -48,7 +49,7 @@ const AdvancedSolutions = () => {
       icon: '📱',
       title: t('advancedSolutions.mobile.title'),
       description: t('advancedSolutions.mobile.description'),
-      image: '/AM Bild 2.jpg',
+      image: getImagePath('/AM Bild 2.jpg'),
       features: [
         t('advancedSolutions.mobile.feature1'),
         t('advancedSolutions.mobile.feature2'),
