@@ -108,8 +108,8 @@ const Contact = () => {
                     }`}>
                       {t('contact.phone')}
                     </p>
-                    <a href="tel:+491234567890" className="text-primary-600 hover:text-primary-700">
-                      +49 (0) 123 456 7890
+                    <a href="tel:+4917657728776" className="text-primary-600 hover:text-primary-700">
+                      +49 176 577 287 76
                     </a>
                   </div>
                 </div>
