@@ -83,8 +83,8 @@ const Contact = () => {
                     }`}>
                       {t('contact.email')}
                     </p>
-                    <a href="mailto:info@amcodecrafters.de" className="text-primary-600 hover:text-primary-700">
-                      info@amcodecrafters.de
+                    <a href="mailto:info@amcodecrafter.com" className="text-primary-600 hover:text-primary-700">
+                      info@amcodecrafter.com
                     </a>
                   </div>
                 </div>
