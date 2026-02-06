@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { useApp } from '../contexts/AppContext'
-import { getImagePath } from '../utils/imagePath'
 
 interface NavigationProps {
   isScrolled: boolean
@@ -35,11 +34,14 @@ const Navigation = ({ isScrolled }: NavigationProps) => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#home" className="flex items-center">
-            <img
-              src={getImagePath('/logo_4-removebg.png')}
-              alt="AM Code Crafters Logo"
-              className="h-24 md:h-32 w-auto object-contain"
-            />
+            <div className="flex items-center space-x-2">
+              <div className="bg-primary-600 text-white font-bold text-xl md:text-2xl px-3 py-2 rounded-lg">
+                AM
+              </div>
+              <span className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white">
+                Code Crafters
+              </span>
+            </div>
           </a>
 
           {/* Desktop Navigation */}

@@ -12,7 +12,7 @@ const AdvancedSolutions = () => {
       icon: '🌐',
       title: t('advancedSolutions.web.title'),
       description: t('advancedSolutions.web.description'),
-      image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=600&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       features: [
         t('advancedSolutions.web.feature1'),
         t('advancedSolutions.web.feature2'),
@@ -24,7 +24,7 @@ const AdvancedSolutions = () => {
       icon: '📋',
       title: t('advancedSolutions.planning.title'),
       description: t('advancedSolutions.planning.description'),
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       features: [
         t('advancedSolutions.planning.feature1'),
         t('advancedSolutions.planning.feature2'),
@@ -36,7 +36,7 @@ const AdvancedSolutions = () => {
       icon: '☁️',
       title: t('advancedSolutions.cloud.title'),
       description: t('advancedSolutions.cloud.description'),
-      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       features: [
         t('advancedSolutions.cloud.feature1'),
         t('advancedSolutions.cloud.feature2'),
@@ -48,7 +48,7 @@ const AdvancedSolutions = () => {
       icon: '📱',
       title: t('advancedSolutions.mobile.title'),
       description: t('advancedSolutions.mobile.description'),
-      image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       features: [
         t('advancedSolutions.mobile.feature1'),
         t('advancedSolutions.mobile.feature2'),

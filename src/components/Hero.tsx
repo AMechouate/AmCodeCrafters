@@ -43,9 +43,10 @@ const Hero = () => {
           <div className="relative">
             <div className="relative flex items-center justify-center">
               <img
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop&q=80"
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
                 alt="IT Consulting Team - AM Code Crafters"
                 className="w-full h-auto object-contain max-w-lg rounded-2xl shadow-2xl"
+                loading="lazy"
               />
             </div>
           </div>
