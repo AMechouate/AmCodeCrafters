@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { useApp } from '../contexts/AppContext'
-import { getImagePath } from '../utils/imagePath'
 
 const Contact = () => {
   const { theme, t } = useApp()
@@ -119,9 +118,9 @@ const Contact = () => {
               {/* Image below contact info */}
               <div className="mt-8 flex justify-center md:justify-start">
                 <img
-                  src={getImagePath('/AM_Bild_12-removebg.png')}
-                  alt="AM Code Crafters"
-                  className="max-w-full h-auto max-h-80 w-auto object-contain"
+                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop&q=80"
+                  alt="IT Consulting Contact - AM Code Crafters"
+                  className="max-w-full h-auto max-h-80 w-auto object-contain rounded-xl shadow-lg"
                 />
               </div>
             </div>

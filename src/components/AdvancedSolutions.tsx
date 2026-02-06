@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { useApp } from '../contexts/AppContext'
 import AdvancedSolutionModal from './AdvancedSolutionModal'
-import { getImagePath } from '../utils/imagePath'
 
 const AdvancedSolutions = () => {
   const { theme, t } = useApp()
@@ -13,7 +12,7 @@ const AdvancedSolutions = () => {
       icon: '🌐',
       title: t('advancedSolutions.web.title'),
       description: t('advancedSolutions.web.description'),
-      image: getImagePath('/AM Bild 10.jpg'),
+      image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=600&fit=crop&q=80',
       features: [
         t('advancedSolutions.web.feature1'),
         t('advancedSolutions.web.feature2'),
@@ -25,7 +24,7 @@ const AdvancedSolutions = () => {
       icon: '📋',
       title: t('advancedSolutions.planning.title'),
       description: t('advancedSolutions.planning.description'),
-      image: getImagePath('/AM Bild 11.jpg'),
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop&q=80',
       features: [
         t('advancedSolutions.planning.feature1'),
         t('advancedSolutions.planning.feature2'),
@@ -37,7 +36,7 @@ const AdvancedSolutions = () => {
       icon: '☁️',
       title: t('advancedSolutions.cloud.title'),
       description: t('advancedSolutions.cloud.description'),
-      image: getImagePath('/AM Bild 12.jpg'),
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop&q=80',
       features: [
         t('advancedSolutions.cloud.feature1'),
         t('advancedSolutions.cloud.feature2'),
@@ -49,7 +48,7 @@ const AdvancedSolutions = () => {
       icon: '📱',
       title: t('advancedSolutions.mobile.title'),
       description: t('advancedSolutions.mobile.description'),
-      image: getImagePath('/AM Bild 2.jpg'),
+      image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop&q=80',
       features: [
         t('advancedSolutions.mobile.feature1'),
         t('advancedSolutions.mobile.feature2'),

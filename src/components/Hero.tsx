@@ -1,5 +1,4 @@
 import { useApp } from '../contexts/AppContext'
-import { getImagePath } from '../utils/imagePath'
 
 const Hero = () => {
   const { theme, t } = useApp()
@@ -44,9 +43,9 @@ const Hero = () => {
           <div className="relative">
             <div className="relative flex items-center justify-center">
               <img
-                src={getImagePath('/AM_Bilder_13-removebg.png')}
-                alt="AM Code Crafters"
-                className="w-full h-auto object-contain max-w-lg"
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop&q=80"
+                alt="IT Consulting Team - AM Code Crafters"
+                className="w-full h-auto object-contain max-w-lg rounded-2xl shadow-2xl"
               />
             </div>
           </div>

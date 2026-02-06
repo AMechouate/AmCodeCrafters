@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { useApp } from '../contexts/AppContext'
 import ServiceModal from './ServiceModal'
-import { getImagePath } from '../utils/imagePath'
 
 const Services = () => {
   const { theme, t } = useApp()
@@ -14,42 +13,42 @@ const Services = () => {
       titleKey: 'services.service1.title',
       descriptionKey: 'services.service1.description',
       icon: '💼',
-      image: getImagePath('/AM Bild 3.jpg'),
+      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop&q=80',
     },
     {
       number: '2',
       titleKey: 'services.service2.title',
       descriptionKey: 'services.service2.description',
       icon: '📊',
-      image: getImagePath('/AM Bild 4.jpg'),
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop&q=80',
     },
     {
       number: '3',
       titleKey: 'services.service3.title',
       descriptionKey: 'services.service3.description',
       icon: '💻',
-      image: getImagePath('/AM Bild 9.jpg'),
+      image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop&q=80',
     },
     {
       number: '4',
       titleKey: 'services.service4.title',
       descriptionKey: 'services.service4.description',
       icon: '🔧',
-      image: getImagePath('/AM Bild 1.jpg'),
+      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop&q=80',
     },
     {
       number: '5',
       titleKey: 'services.service5.title',
       descriptionKey: 'services.service5.description',
       icon: '🚀',
-      image: getImagePath('/AM Bild 7.jpg'),
+      image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop&q=80',
     },
     {
       number: '6',
       titleKey: 'services.service6.title',
       descriptionKey: 'services.service6.description',
       icon: '🛠️',
-      image: getImagePath('/AM Bild 8.jpg'),
+      image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop&q=80',
     },
   ]
 
